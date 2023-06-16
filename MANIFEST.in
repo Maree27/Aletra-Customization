@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include aletra_customizations *.css
+recursive-include aletra_customizations *.csv
+recursive-include aletra_customizations *.html
+recursive-include aletra_customizations *.ico
+recursive-include aletra_customizations *.js
+recursive-include aletra_customizations *.json
+recursive-include aletra_customizations *.md
+recursive-include aletra_customizations *.png
+recursive-include aletra_customizations *.py
+recursive-include aletra_customizations *.svg
+recursive-include aletra_customizations *.txt
+recursive-exclude aletra_customizations *.pyc
